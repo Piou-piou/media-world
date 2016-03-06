@@ -1,0 +1,70 @@
+@font-face{font-family:bn;src: url('fonts/bn.otf');/* IE9+ */}
+
+html{width:100%;height:100%;overflow-x:hidden;}
+
+#nav{position:fixed;top:0;width:100%;height:90px;font-family:'bn';z-index:15;background:white;text-transform:uppercase;}
+#nav h1 a{float:left;color:#ff7f00;font-size:50px;margin-top:38px;text-decoration: none;}
+#nav h1 a:hover{color:#4b4b4b;}
+#nav ul{float:right;width:700px;padding-top:44px;}
+#nav li a{float:right;margin-left:20px;margin-top:10px;color:#4b4b4b;font-size:30px;text-decoration: none;}
+#nav li a:hover{border-bottom:6px solid #ff7f00;}
+
+#projecteur{width:138px;height:516px;background:url('img/projecteur.png') center center no-repeat;position:absolute;z-index:10;top:1630px;right:50%;margin-right:-5px;}
+#camera{width:140px;height:312px;background:url('img/camera.png') center center no-repeat;position:absolute;z-index:10;top:1840px;right:50%;margin-right:-145px;}
+#table{width:209px;height:249px;background:url('img/dessus_com.png') center center no-repeat;position:absolute;z-index:10;top:6128px;right:50%;margin-right:-126px;}
+#casque{width:111px;height:80px;background:url('img/casque.png') center center no-repeat;position:absolute;z-index:11;top:2643px;right:50%;margin-right:-75px;}
+
+#main{width:1916px;position:absolute;right:50%;margin-right:-958px;z-index:1;margin-top:90px;}
+
+#perso{width:142px;height:338px;position:fixed;background:url('img/lucas.png') center top no-repeat;z-index:5;top:362px;right:50%;margin-right:-100px;}
+#perso1{width:142px;height:338px;position:absolute;background:url('img/lucas.jpg') center top no-repeat;z-index:11;top:5813px;right:50%;margin-right:-95px;}
+
+#accueil2{width:1916px;height:988px;float:left;background:url('img/image_accueil.png') center center no-repeat;}
+	#accueil_cercle{width:442px;height:442px;background:url('img/cercle442.png') center center no-repeat;position:absolute;z-index:3;top:232px;left:692px;}
+	#accueil_cercle p{font-family:bn;font-size:30px;margin:106px 0 0 48px;width:173px;color:#272727;}
+	#accueil_cercle span{color:#ff7f00;}
+	
+#video2{width:1916px;height:1079px;float:left;background:url('img/image_video.png') center center no-repeat;}
+	#video_cercle{width:292px;height:292px;background:url('img/cercle292.png') center center no-repeat;position:absolute;z-index:3;top:1200px;left:501px;}
+	#video_cercle p{font-family:bn;font-size:30px;margin:60px 0 0 48px;width:220px;color:#272727;}
+	#video_cercle span{color:#ff7f00;}
+	
+#son2{width:1916px;height:1076px;float:left;background:url('img/image_son.png') center center no-repeat;}
+	#son2_cercle{width:292px;height:292px;background:url('img/cercle292.png') center center no-repeat;position:absolute;z-index:3;top:2339px;left:1041px;}
+	#son2_cercle p{font-family:bn;font-size:30px;margin:60px 0 0 70px;width:180px;color:#272727;}
+	#son2_cercle span{color:#ff7f00;}
+	
+#prog{width:1916px;height:1055px;float:left;background:url('img/image_prog.png') center center no-repeat;}
+	#prog_cercle{width:292px;height:292px;background:url('img/cercle292.png') center center no-repeat;position:absolute;z-index:3;top:3657px;left:1154px;}
+	#prog_cercle p{font-family:bn;font-size:26px;margin:55px 0 0 48px;width:220px;color:#272727;}
+	#prog_cercle span{color:#ff7f00;}
+	
+#graphisme2{width:1916px;height:1055px;float:left;background:url('img/image_graphisme.png') center center no-repeat;}
+	#graphisme2_cercle{width:292px;height:292px;background:url('img/cercle292.png') center center no-repeat;position:absolute;z-index:3;top:4454px;left:558px;}
+	#graphisme2_cercle p{font-family:bn;font-size:30px;margin:70px 0 0 60px;width:190px;color:#272727;}
+	#graphisme2_cercle span{color:#ff7f00;}
+	
+#com{width:1916px;height:1034px;float:left;background:url('img/image_com.png') center center no-repeat;}
+	#com_cercle{width:292px;height:292px;background:url('img/cercle292.png') center center no-repeat;position:absolute;z-index:3;top:5491px;left:560px;}
+	#com_cercle p{font-family:bn;font-size:30px;margin:70px 0 0 60px;width:200px;color:#272727;}
+	#com_cercle span{color:#ff7f00;}
+	
+#questionnaire{width:1916px;height:1025px;background:url('img/fond_questionnaire.png') center center no-repeat;z-index:13;position:absolute;top:6377px;left:50%;margin-left:-958px;}
+	#questionnaire_cercle{width:442px;height:442px;background:url('img/cercle442.png') center center no-repeat;position:absolute;z-index:3;left:50%;margin:300px 0 0 -281px;}
+	#questionnaire_cercle p{font-family:bn;font-size:30px;margin:110px 0 0 40px;width:200px;color:#272727;}
+	#questionnaire_cercle span a{color:#ff7f00;}
+	#malsot{width:171px;height:349px;background:url('img/malsot.png') center center no-repeat;margin:381px 0 0 -40px;left:50%;position:absolute;z-index:14;}
+	
+	
+#end{width:1916px;height:300px;float:left;}
+
+.inner{width:960px;margin:auto;}
+.color{border-bottom:6px solid #ff7f00;}
+
+/* Ancres */
+#accueil{position:absolute;margin-top:-90px;}
+#video{position:absolute;margin-top:50px;}
+#son{position:absolute;margin-top:100px;}
+#programmation{position:margin-top:120px;}
+#graphisme{position:absolute;margin-top:140px;}
+#communication{position:absolute;margin-top:125px;}
